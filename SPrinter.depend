@@ -1,0 +1,6697 @@
+# depslib dependency file v1.0
+1477717984 source:/home/pang1567/project/SPrinter/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477718851 source:/home/pang1567/project/SPrinter/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"warning.h"
+
+1477319992 /home/pang1567/project/SPrinter/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1477712868 /home/pang1567/project/SPrinter/ScanPrintTypes.h
+
+1472516846 source:/home/pang1567/project/SPrinter/BufUsb.c
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+
+1474866272 /home/pang1567/project/SPrinter/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/SPrinter/os_def.h
+	"regsdef.h"
+
+1477715900 /home/pang1567/project/SPrinter/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/SPrinter/systypes.h
+
+1472507345 source:/home/pang1567/project/SPrinter/GPMC.c
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+
+1474866272 /home/pang1567/project/SPrinter/GPMC.h
+
+1472295720 source:/home/pang1567/project/SPrinter/PclParser.c
+	"PclParser.h"
+	<stdio.h>
+
+1474866272 /home/pang1567/project/SPrinter/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1474866272 /home/pang1567/project/SPrinter/Pcl.h
+
+1472507583 source:/home/pang1567/project/SPrinter/PrintHead.c
+	"PrintHead.h"
+	"regsdef.h"
+	"os_def.h"
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+
+1472531833 /home/pang1567/project/SPrinter/PrintHead.h
+	"systypes.h"
+	"Pcl.h"
+	"ScanPrintTypes.h"
+
+1472518643 source:/home/pang1567/project/SPrinter/PrintJob.c
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"PrintHead.h"
+	"Serial.h"
+	"GPMC.h"
+	<fcntl.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<signal.h>
+
+1477530430 /home/pang1567/project/SPrinter/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1475131068 /home/pang1567/project/SPrinter/Serial.h
+
+1410877386 source:/home/pang1567/project/SPrinter/Serial.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+
+1477713170 source:/home/pang1567/project/SPrinter/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1477713013 source:/home/pang1567/project/SPrinter/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/SPrinter/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1476017614 source:/home/pang1567/project/SPrinter/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1473144692 source:/home/pang1567/project/SPrinter/PrintHead.cpp
+	"PrintHead.h"
+	"regsdef.h"
+	"os_def.h"
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"PrintJob.h"
+
+1475818402 source:/home/pang1567/project/SPrinter/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1477718455 source:/home/pang1567/project/SPrinter/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477712868 /home/pang1567/project/SPrinter/Scan.h
+
+1477718931 source:/home/pang1567/project/SPrinter/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1477718005 /home/pang1567/project/SPrinter/ScanPrint.h
+	"image.h"
+
+1474494126 /home/pang1567/project/SPrinter/warning_type.h
+
+1477050628 source:/home/pang1567/project/SPrinter/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1476080158 /home/pang1567/project/SPrinter/image.h
+	"memory.h"
+
+1473227376 source:/home/pang1567/project/MEI/SP9-14/SPrinter/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+
+1472512588 /home/pang1567/project/MEI/SP9-14/SPrinter/BufUsb.h
+	"os_def.h"
+
+1473650792 /home/pang1567/project/MEI/SP9-14/SPrinter/os_def.h
+	"regsdef.h"
+
+1473729652 /home/pang1567/project/MEI/SP9-14/SPrinter/regsdef.h
+	"systypes.h"
+
+1277376124 /home/pang1567/project/MEI/SP9-14/SPrinter/systypes.h
+
+1473651670 source:/home/pang1567/project/MEI/SP9-14/SPrinter/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+
+1473651670 /home/pang1567/project/MEI/SP9-14/SPrinter/GPMC.h
+
+1473743536 source:/home/pang1567/project/MEI/SP9-14/SPrinter/Image.cpp
+	"image.h"
+	"memory.h"
+	"stdio.h"
+
+1473747066 /home/pang1567/project/MEI/SP9-14/SPrinter/image.h
+
+1473745436 source:/home/pang1567/project/MEI/SP9-14/SPrinter/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"warning_type.h"
+
+1473724168 /home/pang1567/project/MEI/SP9-14/SPrinter/LcdUI.h
+	"ScanPrintTypes.h"
+
+1473212372 /home/pang1567/project/MEI/SP9-14/SPrinter/ScanPrintTypes.h
+
+1472528544 /home/pang1567/project/MEI/SP9-14/SPrinter/Serial.h
+
+1473732108 /home/pang1567/project/MEI/SP9-14/SPrinter/warning_type.h
+
+1473645285 source:/home/pang1567/project/MEI/SP9-14/SPrinter/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"ScanPrint.h"
+
+1473717288 /home/pang1567/project/MEI/SP9-14/SPrinter/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1473631298 /home/pang1567/project/MEI/SP9-14/SPrinter/Pcl.h
+
+1472678568 /home/pang1567/project/MEI/SP9-14/SPrinter/Scan.h
+
+1472530464 /home/pang1567/project/MEI/SP9-14/SPrinter/ScanPrint.h
+
+1473632630 source:/home/pang1567/project/MEI/SP9-14/SPrinter/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+
+1274448392 /home/pang1567/project/MEI/SP9-14/SPrinter/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1473649587 source:/home/pang1567/project/MEI/SP9-14/SPrinter/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"Serial.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<signal.h>
+
+1472764322 source:/home/pang1567/project/MEI/SP9-14/SPrinter/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+
+1473227920 source:/home/pang1567/project/MEI/SP9-14/SPrinter/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+
+1472528598 source:/home/pang1567/project/MEI/SP9-14/SPrinter/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+
+1473227376 source:/home/pang1567/project/MEI/SPrinterA4/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+
+1472512588 /home/pang1567/project/MEI/SPrinterA4/BufUsb.h
+	"os_def.h"
+
+1473650792 /home/pang1567/project/MEI/SPrinterA4/os_def.h
+	"regsdef.h"
+
+1474420363 /home/pang1567/project/MEI/SPrinterA4/regsdef.h
+	"systypes.h"
+
+1277376124 /home/pang1567/project/MEI/SPrinterA4/systypes.h
+
+1474313954 source:/home/pang1567/project/MEI/SPrinterA4/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+
+1473831000 /home/pang1567/project/MEI/SPrinterA4/GPMC.h
+
+1474529262 source:/home/pang1567/project/MEI/SPrinterA4/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	"stdio.h"
+
+1474519924 /home/pang1567/project/MEI/SPrinterA4/image.h
+	"memory.h"
+
+1474496328 /home/pang1567/project/MEI/SPrinterA4/ScanPrintTypes.h
+
+1474497732 source:/home/pang1567/project/MEI/SPrinterA4/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"warning_type.h"
+
+1474152274 /home/pang1567/project/MEI/SPrinterA4/LcdUI.h
+	"ScanPrintTypes.h"
+
+1472528544 /home/pang1567/project/MEI/SPrinterA4/Serial.h
+
+1474494126 /home/pang1567/project/MEI/SPrinterA4/warning_type.h
+
+1474416998 source:/home/pang1567/project/MEI/SPrinterA4/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"ScanPrint.h"
+
+1474513336 /home/pang1567/project/MEI/SPrinterA4/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1473631298 /home/pang1567/project/MEI/SPrinterA4/Pcl.h
+
+1474263718 /home/pang1567/project/MEI/SPrinterA4/Scan.h
+
+1474498968 /home/pang1567/project/MEI/SPrinterA4/ScanPrint.h
+
+1473632630 source:/home/pang1567/project/MEI/SPrinterA4/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+
+1274448392 /home/pang1567/project/MEI/SPrinterA4/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1474419139 source:/home/pang1567/project/MEI/SPrinterA4/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+
+1474421094 source:/home/pang1567/project/MEI/SPrinterA4/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+
+1474513570 source:/home/pang1567/project/MEI/SPrinterA4/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+
+1472528598 source:/home/pang1567/project/MEI/SPrinterA4/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+
+1473227376 source:/home/pang1567/project/MEI/SPrinter923/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+
+1472512588 /home/pang1567/project/MEI/SPrinter923/BufUsb.h
+	"os_def.h"
+
+1474596190 /home/pang1567/project/MEI/SPrinter923/os_def.h
+	"regsdef.h"
+
+1474764908 /home/pang1567/project/MEI/SPrinter923/regsdef.h
+	"systypes.h"
+
+1277376124 /home/pang1567/project/MEI/SPrinter923/systypes.h
+
+1474816058 source:/home/pang1567/project/MEI/SPrinter923/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+
+1474833658 /home/pang1567/project/MEI/SPrinter923/GPMC.h
+
+1474661122 source:/home/pang1567/project/MEI/SPrinter923/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"stdio.h"
+
+1474575460 /home/pang1567/project/MEI/SPrinter923/image.h
+	"memory.h"
+
+1474767872 /home/pang1567/project/MEI/SPrinter923/ScanPrintTypes.h
+
+1474861246 source:/home/pang1567/project/MEI/SPrinter923/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"warning.h"
+
+1474855030 /home/pang1567/project/MEI/SPrinter923/LcdUI.h
+	"ScanPrintTypes.h"
+
+1472528544 /home/pang1567/project/MEI/SPrinter923/Serial.h
+
+1474849204 /home/pang1567/project/MEI/SPrinter923/warning_type.h
+
+1474851964 source:/home/pang1567/project/MEI/SPrinter923/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+
+1474550650 /home/pang1567/project/MEI/SPrinter923/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1473631298 /home/pang1567/project/MEI/SPrinter923/Pcl.h
+
+1474820104 /home/pang1567/project/MEI/SPrinter923/Scan.h
+
+1474498968 /home/pang1567/project/MEI/SPrinter923/ScanPrint.h
+
+1473632630 source:/home/pang1567/project/MEI/SPrinter923/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+
+1274448392 /home/pang1567/project/MEI/SPrinter923/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1474862139 source:/home/pang1567/project/MEI/SPrinter923/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+
+1474864219 source:/home/pang1567/project/MEI/SPrinter923/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+
+1474863133 source:/home/pang1567/project/MEI/SPrinter923/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+
+1474488684 source:/home/pang1567/project/MEI/SPrinter923/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+
+1475065246 /home/pang1567/project/MEI/SPrinter923/warning.h
+
+1477307506 /home/pang1567/project/SPrinter/warning.h
+
+1477558592 source:/home/pang1567/project/SPrinter/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475087964 /home/pang1567/project/SPrinter/Finger.h
+	"Serial.h"
+
+1477713014 source:/home/pang1567/project/MEI/SPrinter/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter/os_def.h
+	"regsdef.h"
+
+1478049699 /home/pang1567/project/MEI/SPrinter/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter/systypes.h
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter/GPMC.h
+
+1478322438 source:/home/pang1567/project/MEI/SPrinter/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1478317221 /home/pang1567/project/MEI/SPrinter/image.h
+	"memory.h"
+
+1478334890 /home/pang1567/project/MEI/SPrinter/ScanPrintTypes.h
+
+1478351369 source:/home/pang1567/project/MEI/SPrinter/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"warning.h"
+
+1478334581 /home/pang1567/project/MEI/SPrinter/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter/Serial.h
+
+1477718006 /home/pang1567/project/MEI/SPrinter/ScanPrint.h
+	"image.h"
+
+1475087964 /home/pang1567/project/MEI/SPrinter/Finger.h
+	"Serial.h"
+
+1478061553 /home/pang1567/project/MEI/SPrinter/warning.h
+
+1478332235 source:/home/pang1567/project/MEI/SPrinter/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter/Pcl.h
+
+1477912283 /home/pang1567/project/MEI/SPrinter/Scan.h
+
+1476017614 source:/home/pang1567/project/MEI/SPrinter/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1478308878 source:/home/pang1567/project/MEI/SPrinter/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1478192263 source:/home/pang1567/project/MEI/SPrinter/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1478351604 source:/home/pang1567/project/MEI/SPrinter/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475109686 source:/home/pang1567/project/MEI/SPrinter10072/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+
+1474866272 /home/pang1567/project/MEI/SPrinter10072/BufUsb.h
+	"os_def.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter10072/os_def.h
+	"regsdef.h"
+
+1475006382 /home/pang1567/project/MEI/SPrinter10072/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter10072/systypes.h
+
+1475767752 source:/home/pang1567/project/MEI/SPrinter10072/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+
+1475087965 /home/pang1567/project/MEI/SPrinter10072/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter10072/Serial.h
+
+1474866272 source:/home/pang1567/project/MEI/SPrinter10072/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter10072/GPMC.h
+
+1475109686 source:/home/pang1567/project/MEI/SPrinter10072/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"stdio.h"
+
+1475109704 /home/pang1567/project/MEI/SPrinter10072/image.h
+	"memory.h"
+
+1475138566 /home/pang1567/project/MEI/SPrinter10072/ScanPrintTypes.h
+
+1475895449 source:/home/pang1567/project/MEI/SPrinter10072/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"warning.h"
+
+1475094067 /home/pang1567/project/MEI/SPrinter10072/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1475745173 /home/pang1567/project/MEI/SPrinter10072/ScanPrint.h
+
+1474866272 /home/pang1567/project/MEI/SPrinter10072/warning.h
+
+1474866272 source:/home/pang1567/project/MEI/SPrinter10072/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+
+1474866272 /home/pang1567/project/MEI/SPrinter10072/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1474866272 /home/pang1567/project/MEI/SPrinter10072/Pcl.h
+
+1475834037 source:/home/pang1567/project/MEI/SPrinter10072/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter10072/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1475825493 source:/home/pang1567/project/MEI/SPrinter10072/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+
+1475745207 /home/pang1567/project/MEI/SPrinter10072/Scan.h
+
+1475004151 source:/home/pang1567/project/MEI/SPrinter10072/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+
+1475894830 source:/home/pang1567/project/MEI/SPrinter10072/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+
+1475841490 source:/home/pang1567/project/MEI/SPrinter10072/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1008/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1008/BufUsb.h
+	"os_def.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1008/os_def.h
+	"regsdef.h"
+
+1475819444 /home/pang1567/project/MEI/SPrinter1008/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1008/systypes.h
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1008/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475087964 /home/pang1567/project/MEI/SPrinter1008/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter1008/Serial.h
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1008/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1008/GPMC.h
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1008/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+
+1475109704 /home/pang1567/project/MEI/SPrinter1008/image.h
+	"memory.h"
+
+1475138566 /home/pang1567/project/MEI/SPrinter1008/ScanPrintTypes.h
+
+1475895449 source:/home/pang1567/project/MEI/SPrinter1008/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"warning.h"
+
+1475094067 /home/pang1567/project/MEI/SPrinter1008/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1475877352 /home/pang1567/project/MEI/SPrinter1008/ScanPrint.h
+	"image.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1008/warning.h
+
+1475902068 source:/home/pang1567/project/MEI/SPrinter1008/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1008/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1008/Pcl.h
+
+1475869834 /home/pang1567/project/MEI/SPrinter1008/Scan.h
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1008/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1008/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1475898386 source:/home/pang1567/project/MEI/SPrinter1008/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1475877916 source:/home/pang1567/project/MEI/SPrinter1008/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1475898454 source:/home/pang1567/project/MEI/SPrinter1008/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1008/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1475878488 /home/pang1567/project/MEI/SPrinter1008/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"image.h"
+
+1478160485 /home/pang1567/project/MEI/SPrinter/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1020/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1020/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter1020/os_def.h
+	"regsdef.h"
+
+1475911820 /home/pang1567/project/MEI/SPrinter1020/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1020/systypes.h
+
+1476104440 /home/pang1567/project/MEI/SPrinter1020/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"image.h"
+
+1475138566 /home/pang1567/project/MEI/SPrinter1020/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter1020/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter1020/Serial.h
+
+1475094068 /home/pang1567/project/MEI/SPrinter1020/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1020/GPMC.h
+
+1476080158 /home/pang1567/project/MEI/SPrinter1020/image.h
+	"memory.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1020/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1020/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1476080640 source:/home/pang1567/project/MEI/SPrinter1020/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1476109438 source:/home/pang1567/project/MEI/SPrinter1020/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"warning.h"
+
+1475995308 /home/pang1567/project/MEI/SPrinter1020/ScanPrint.h
+	"image.h"
+
+1475980318 /home/pang1567/project/MEI/SPrinter1020/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1020/Pcl.h
+
+1476112969 /home/pang1567/project/MEI/SPrinter1020/warning.h
+
+1476113185 source:/home/pang1567/project/MEI/SPrinter1020/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1476952094 /home/pang1567/project/MEI/SPrinter1020/Scan.h
+
+1476017614 source:/home/pang1567/project/MEI/SPrinter1020/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1020/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1476109816 source:/home/pang1567/project/MEI/SPrinter1020/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1476952151 source:/home/pang1567/project/MEI/SPrinter1020/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1020/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1476953343 source:/home/pang1567/project/MEI/SPrinter1020/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1477718851 /home/pang1567/project/SPrinter/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+
+1478331850 source:/home/pang1567/project/MEI/SPrinter/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1477904842 /home/pang1567/project/MEI/SPrinter/Mysql.h
+	<mysql/mysql.h>
+
+1477713014 source:/home/pang1567/project/MEI/SPrinter1106/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1106/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter1106/os_def.h
+	"regsdef.h"
+
+1478049699 /home/pang1567/project/MEI/SPrinter1106/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1106/systypes.h
+
+1478445851 /home/pang1567/project/MEI/SPrinter1106/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1478334890 /home/pang1567/project/MEI/SPrinter1106/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter1106/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter1106/Serial.h
+
+1478436701 /home/pang1567/project/MEI/SPrinter1106/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1106/GPMC.h
+
+1478317221 /home/pang1567/project/MEI/SPrinter1106/image.h
+	"memory.h"
+
+1477904842 /home/pang1567/project/MEI/SPrinter1106/Mysql.h
+	<mysql/mysql.h>
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter1106/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1106/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449441 source:/home/pang1567/project/MEI/SPrinter1106/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1478488192 source:/home/pang1567/project/MEI/SPrinter1106/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"warning.h"
+
+1477718006 /home/pang1567/project/MEI/SPrinter1106/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter1106/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1106/Pcl.h
+
+1478061553 /home/pang1567/project/MEI/SPrinter1106/warning.h
+
+1478332235 source:/home/pang1567/project/MEI/SPrinter1106/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912283 /home/pang1567/project/MEI/SPrinter1106/Scan.h
+
+1478331850 source:/home/pang1567/project/MEI/SPrinter1106/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1476017614 source:/home/pang1567/project/MEI/SPrinter1106/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1106/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1478308878 source:/home/pang1567/project/MEI/SPrinter1106/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1478192263 source:/home/pang1567/project/MEI/SPrinter1106/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1106/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1478487974 source:/home/pang1567/project/MEI/SPrinter1106/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1477713014 source:/home/pang1567/project/MEI/SPrinter1126/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1126/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter1126/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter1126/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1126/systypes.h
+
+1480337099 /home/pang1567/project/MEI/SPrinter1126/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1480142807 /home/pang1567/project/MEI/SPrinter1126/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter1126/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter1126/Serial.h
+
+1480406642 /home/pang1567/project/MEI/SPrinter1126/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1126/GPMC.h
+
+1478317220 /home/pang1567/project/MEI/SPrinter1126/image.h
+	"memory.h"
+
+1480405302 /home/pang1567/project/MEI/SPrinter1126/Mysql.h
+	<mysql/mysql.h>
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter1126/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1126/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter1126/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1480406619 source:/home/pang1567/project/MEI/SPrinter1126/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter1126/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1126/Pcl.h
+
+1477912282 /home/pang1567/project/MEI/SPrinter1126/Scan.h
+
+1477718006 /home/pang1567/project/MEI/SPrinter1126/ScanPrint.h
+	"image.h"
+
+1480401847 source:/home/pang1567/project/MEI/SPrinter1126/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1476017614 source:/home/pang1567/project/MEI/SPrinter1126/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1126/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1478308878 source:/home/pang1567/project/MEI/SPrinter1126/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1478192262 source:/home/pang1567/project/MEI/SPrinter1126/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1478491644 source:/home/pang1567/project/MEI/SPrinter1126/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1126/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1480417736 source:/home/pang1567/project/MEI/SPrinter1126/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"warning.h"
+
+1478061552 /home/pang1567/project/MEI/SPrinter1126/warning.h
+
+1477713014 source:/home/pang1567/project/MEI/SPrinter1130/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1130/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter1130/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter1130/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1130/systypes.h
+
+1480171931 /home/pang1567/project/MEI/SPrinter1130/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1480438257 /home/pang1567/project/MEI/SPrinter1130/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter1130/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter1130/Serial.h
+
+1480374191 /home/pang1567/project/MEI/SPrinter1130/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1130/GPMC.h
+
+1478317220 /home/pang1567/project/MEI/SPrinter1130/image.h
+	"memory.h"
+
+1480469950 /home/pang1567/project/MEI/SPrinter1130/Mysql.h
+	<mysql/mysql.h>
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter1130/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1130/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter1130/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1480469916 source:/home/pang1567/project/MEI/SPrinter1130/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"warning.h"
+
+1477718006 /home/pang1567/project/MEI/SPrinter1130/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter1130/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1130/Pcl.h
+
+1478061552 /home/pang1567/project/MEI/SPrinter1130/warning.h
+
+1480470276 source:/home/pang1567/project/MEI/SPrinter1130/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter1130/Scan.h
+
+1480470138 source:/home/pang1567/project/MEI/SPrinter1130/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1476017614 source:/home/pang1567/project/MEI/SPrinter1130/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1130/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1480175886 source:/home/pang1567/project/MEI/SPrinter1130/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1480175675 source:/home/pang1567/project/MEI/SPrinter1130/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1478491644 source:/home/pang1567/project/MEI/SPrinter1130/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1130/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1477713014 source:/home/pang1567/project/MEI/SPrinter1212/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1212/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter1212/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter1212/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1212/systypes.h
+
+1481897658 /home/pang1567/project/MEI/SPrinter1212/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1480884037 /home/pang1567/project/MEI/SPrinter1212/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter1212/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter1212/Serial.h
+
+1482220922 /home/pang1567/project/MEI/SPrinter1212/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1212/GPMC.h
+
+1478317220 /home/pang1567/project/MEI/SPrinter1212/image.h
+	"memory.h"
+
+1481711631 /home/pang1567/project/MEI/SPrinter1212/Mysql.h
+	<mysql/mysql.h>
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter1212/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1212/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter1212/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1482227026 source:/home/pang1567/project/MEI/SPrinter1212/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter1212/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1212/Pcl.h
+
+1477912282 /home/pang1567/project/MEI/SPrinter1212/Scan.h
+
+1477718006 /home/pang1567/project/MEI/SPrinter1212/ScanPrint.h
+	"image.h"
+
+1481905304 source:/home/pang1567/project/MEI/SPrinter1212/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1476017614 source:/home/pang1567/project/MEI/SPrinter1212/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1212/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1481907426 source:/home/pang1567/project/MEI/SPrinter1212/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1480898156 source:/home/pang1567/project/MEI/SPrinter1212/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1482052347 source:/home/pang1567/project/MEI/SPrinter1212/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1212/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1482221953 source:/home/pang1567/project/MEI/SPrinter1212/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"warning.h"
+
+1482134874 /home/pang1567/project/MEI/SPrinter1212/warning.h
+
+1477713014 source:/home/pang1567/project/MEI/SPrinter1221/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1221/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter1221/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter1221/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1221/systypes.h
+
+1481897658 /home/pang1567/project/MEI/SPrinter1221/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1480884037 /home/pang1567/project/MEI/SPrinter1221/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter1221/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter1221/Serial.h
+
+1482220922 /home/pang1567/project/MEI/SPrinter1221/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1221/GPMC.h
+
+1478317220 /home/pang1567/project/MEI/SPrinter1221/image.h
+	"memory.h"
+
+1481711631 /home/pang1567/project/MEI/SPrinter1221/Mysql.h
+	<mysql/mysql.h>
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter1221/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1221/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter1221/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1482395324 source:/home/pang1567/project/MEI/SPrinter1221/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"warning.h"
+
+1477718006 /home/pang1567/project/MEI/SPrinter1221/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter1221/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1221/Pcl.h
+
+1482134874 /home/pang1567/project/MEI/SPrinter1221/warning.h
+
+1481905304 source:/home/pang1567/project/MEI/SPrinter1221/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1476017614 source:/home/pang1567/project/MEI/SPrinter1221/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1221/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1481907426 source:/home/pang1567/project/MEI/SPrinter1221/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1480898156 source:/home/pang1567/project/MEI/SPrinter1221/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter1221/Scan.h
+
+1482395900 source:/home/pang1567/project/MEI/SPrinter1221/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1221/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1482286330 source:/home/pang1567/project/MEI/SPrinter1221/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477713014 source:/home/pang1567/project/MEI/SPrinter1222/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1222/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter1222/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter1222/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1222/systypes.h
+
+1481897658 /home/pang1567/project/MEI/SPrinter1222/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1480884037 /home/pang1567/project/MEI/SPrinter1222/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter1222/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter1222/Serial.h
+
+1482550823 /home/pang1567/project/MEI/SPrinter1222/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1222/GPMC.h
+
+1478317220 /home/pang1567/project/MEI/SPrinter1222/image.h
+	"memory.h"
+
+1481711631 /home/pang1567/project/MEI/SPrinter1222/Mysql.h
+	<mysql/mysql.h>
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter1222/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1222/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter1222/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1482550813 source:/home/pang1567/project/MEI/SPrinter1222/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"warning.h"
+
+1477718006 /home/pang1567/project/MEI/SPrinter1222/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter1222/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1222/Pcl.h
+
+1482134874 /home/pang1567/project/MEI/SPrinter1222/warning.h
+
+1482550288 source:/home/pang1567/project/MEI/SPrinter1222/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter1222/Scan.h
+
+1481905304 source:/home/pang1567/project/MEI/SPrinter1222/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1476017614 source:/home/pang1567/project/MEI/SPrinter1222/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1222/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1481907426 source:/home/pang1567/project/MEI/SPrinter1222/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1480898156 source:/home/pang1567/project/MEI/SPrinter1222/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1222/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1482551121 source:/home/pang1567/project/MEI/SPrinter1222/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1482722509 source:/home/pang1567/project/MEI/SPrinter1224/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1482582047 /home/pang1567/project/MEI/SPrinter1224/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter1224/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter1224/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1224/systypes.h
+
+1484483883 /home/pang1567/project/MEI/SPrinter1224/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1484484323 /home/pang1567/project/MEI/SPrinter1224/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter1224/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter1224/Serial.h
+
+1484484359 /home/pang1567/project/MEI/SPrinter1224/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1224/GPMC.h
+
+1484106575 /home/pang1567/project/MEI/SPrinter1224/image.h
+	"memory.h"
+
+1484034685 /home/pang1567/project/MEI/SPrinter1224/Mysql.h
+	<mysql/mysql.h>
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter1224/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1224/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter1224/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1484497961 source:/home/pang1567/project/MEI/SPrinter1224/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1477718006 /home/pang1567/project/MEI/SPrinter1224/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter1224/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1224/Pcl.h
+
+1484487786 /home/pang1567/project/MEI/SPrinter1224/warning.h
+
+1484498628 source:/home/pang1567/project/MEI/SPrinter1224/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter1224/Scan.h
+
+1484484043 source:/home/pang1567/project/MEI/SPrinter1224/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1482988683 source:/home/pang1567/project/MEI/SPrinter1224/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter1224/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1484496116 source:/home/pang1567/project/MEI/SPrinter1224/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1483070910 source:/home/pang1567/project/MEI/SPrinter1224/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter1224/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1484473154 source:/home/pang1567/project/MEI/SPrinter1224/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1482722509 source:/home/pang1567/project/MEI/SPrinter0116/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1482582047 /home/pang1567/project/MEI/SPrinter0116/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter0116/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter0116/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0116/systypes.h
+
+1484483883 /home/pang1567/project/MEI/SPrinter0116/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1484484323 /home/pang1567/project/MEI/SPrinter0116/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter0116/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter0116/Serial.h
+
+1484484359 /home/pang1567/project/MEI/SPrinter0116/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0116/GPMC.h
+
+1484106575 /home/pang1567/project/MEI/SPrinter0116/image.h
+	"memory.h"
+
+1484034685 /home/pang1567/project/MEI/SPrinter0116/Mysql.h
+	<mysql/mysql.h>
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter0116/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0116/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter0116/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1484497961 source:/home/pang1567/project/MEI/SPrinter0116/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1477718006 /home/pang1567/project/MEI/SPrinter0116/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter0116/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0116/Pcl.h
+
+1484487786 /home/pang1567/project/MEI/SPrinter0116/warning.h
+
+1484499658 source:/home/pang1567/project/MEI/SPrinter0116/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter0116/Scan.h
+
+1484484043 source:/home/pang1567/project/MEI/SPrinter0116/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1482988683 source:/home/pang1567/project/MEI/SPrinter0116/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0116/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1483070910 source:/home/pang1567/project/MEI/SPrinter0116/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1484473154 source:/home/pang1567/project/MEI/SPrinter0116/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0116/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1484511155 source:/home/pang1567/project/MEI/SPrinter0116/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1482722509 source:/home/pang1567/project/MEI/SPrinter0117/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1482582047 /home/pang1567/project/MEI/SPrinter0117/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter0117/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter0117/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0117/systypes.h
+
+1484483883 /home/pang1567/project/MEI/SPrinter0117/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1484484323 /home/pang1567/project/MEI/SPrinter0117/ScanPrintTypes.h
+
+1475087964 /home/pang1567/project/MEI/SPrinter0117/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter0117/Serial.h
+
+1484484359 /home/pang1567/project/MEI/SPrinter0117/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0117/GPMC.h
+
+1484106575 /home/pang1567/project/MEI/SPrinter0117/image.h
+	"memory.h"
+
+1484034685 /home/pang1567/project/MEI/SPrinter0117/Mysql.h
+	<mysql/mysql.h>
+
+1477558592 source:/home/pang1567/project/MEI/SPrinter0117/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0117/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter0117/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1484635051 source:/home/pang1567/project/MEI/SPrinter0117/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1477718006 /home/pang1567/project/MEI/SPrinter0117/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter0117/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0117/Pcl.h
+
+1484487786 /home/pang1567/project/MEI/SPrinter0117/warning.h
+
+1484704170 source:/home/pang1567/project/MEI/SPrinter0117/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter0117/Scan.h
+
+1484484043 source:/home/pang1567/project/MEI/SPrinter0117/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1482988683 source:/home/pang1567/project/MEI/SPrinter0117/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0117/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1483070910 source:/home/pang1567/project/MEI/SPrinter0117/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1484705114 source:/home/pang1567/project/MEI/SPrinter0117/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0117/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1484705517 source:/home/pang1567/project/MEI/SPrinter0117/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1482722509 source:/home/pang1567/project/MEI/SPrinter0118/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1482582047 /home/pang1567/project/MEI/SPrinter0118/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter0118/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter0118/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0118/systypes.h
+
+1484880867 /home/pang1567/project/MEI/SPrinter0118/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1484484323 /home/pang1567/project/MEI/SPrinter0118/ScanPrintTypes.h
+
+1484725994 /home/pang1567/project/MEI/SPrinter0118/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter0118/Serial.h
+
+1484484359 /home/pang1567/project/MEI/SPrinter0118/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0118/GPMC.h
+
+1484106575 /home/pang1567/project/MEI/SPrinter0118/image.h
+	"memory.h"
+
+1484034685 /home/pang1567/project/MEI/SPrinter0118/Mysql.h
+	<mysql/mysql.h>
+
+1484726282 source:/home/pang1567/project/MEI/SPrinter0118/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0118/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter0118/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1484826382 source:/home/pang1567/project/MEI/SPrinter0118/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter0118/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0118/Pcl.h
+
+1477912282 /home/pang1567/project/MEI/SPrinter0118/Scan.h
+
+1477718006 /home/pang1567/project/MEI/SPrinter0118/ScanPrint.h
+	"image.h"
+
+1484823805 source:/home/pang1567/project/MEI/SPrinter0118/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1482988683 source:/home/pang1567/project/MEI/SPrinter0118/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0118/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1484834439 source:/home/pang1567/project/MEI/SPrinter0118/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1483070910 source:/home/pang1567/project/MEI/SPrinter0118/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1484835914 source:/home/pang1567/project/MEI/SPrinter0118/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0118/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1484835474 source:/home/pang1567/project/MEI/SPrinter0118/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1484487786 /home/pang1567/project/MEI/SPrinter0118/warning.h
+
+1482722509 source:/home/pang1567/project/MEI/SPrinter0120/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1482582047 /home/pang1567/project/MEI/SPrinter0120/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter0120/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter0120/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0120/systypes.h
+
+1484880867 /home/pang1567/project/MEI/SPrinter0120/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1486435106 /home/pang1567/project/MEI/SPrinter0120/ScanPrintTypes.h
+
+1484725994 /home/pang1567/project/MEI/SPrinter0120/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter0120/Serial.h
+
+1484484359 /home/pang1567/project/MEI/SPrinter0120/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0120/GPMC.h
+
+1484106575 /home/pang1567/project/MEI/SPrinter0120/image.h
+	"memory.h"
+
+1484034685 /home/pang1567/project/MEI/SPrinter0120/Mysql.h
+	<mysql/mysql.h>
+
+1484726282 source:/home/pang1567/project/MEI/SPrinter0120/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0120/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter0120/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1486626105 source:/home/pang1567/project/MEI/SPrinter0120/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter0120/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0120/Pcl.h
+
+1477912282 /home/pang1567/project/MEI/SPrinter0120/Scan.h
+
+1477718006 /home/pang1567/project/MEI/SPrinter0120/ScanPrint.h
+	"image.h"
+
+1484823805 source:/home/pang1567/project/MEI/SPrinter0120/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1484988347 source:/home/pang1567/project/MEI/SPrinter0120/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0120/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1484881654 source:/home/pang1567/project/MEI/SPrinter0120/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1483070910 source:/home/pang1567/project/MEI/SPrinter0120/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1486437207 source:/home/pang1567/project/MEI/SPrinter0120/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0120/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1486522665 source:/home/pang1567/project/MEI/SPrinter0120/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1484916258 /home/pang1567/project/MEI/SPrinter0120/warning.h
+
+1482722509 source:/home/pang1567/project/MEI/SPrinter0210/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1482582047 /home/pang1567/project/MEI/SPrinter0210/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter0210/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter0210/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0210/systypes.h
+
+1484880867 /home/pang1567/project/MEI/SPrinter0210/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1486435106 /home/pang1567/project/MEI/SPrinter0210/ScanPrintTypes.h
+
+1484725994 /home/pang1567/project/MEI/SPrinter0210/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter0210/Serial.h
+
+1484484359 /home/pang1567/project/MEI/SPrinter0210/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0210/GPMC.h
+
+1484106575 /home/pang1567/project/MEI/SPrinter0210/image.h
+	"memory.h"
+
+1484034685 /home/pang1567/project/MEI/SPrinter0210/Mysql.h
+	<mysql/mysql.h>
+
+1484726282 source:/home/pang1567/project/MEI/SPrinter0210/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0210/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter0210/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1486522665 source:/home/pang1567/project/MEI/SPrinter0210/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1477718006 /home/pang1567/project/MEI/SPrinter0210/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter0210/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0210/Pcl.h
+
+1484916258 /home/pang1567/project/MEI/SPrinter0210/warning.h
+
+1484823805 source:/home/pang1567/project/MEI/SPrinter0210/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1484988347 source:/home/pang1567/project/MEI/SPrinter0210/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0210/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1484881654 source:/home/pang1567/project/MEI/SPrinter0210/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1483070910 source:/home/pang1567/project/MEI/SPrinter0210/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter0210/Scan.h
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0210/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1486626516 source:/home/pang1567/project/MEI/SPrinter0210/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1486911724 source:/home/pang1567/project/MEI/SPrinter0210/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1482722509 source:/home/pang1567/project/MEI/SPrinter0213/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1482582047 /home/pang1567/project/MEI/SPrinter0213/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter0213/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter0213/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0213/systypes.h
+
+1484880867 /home/pang1567/project/MEI/SPrinter0213/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1486435106 /home/pang1567/project/MEI/SPrinter0213/ScanPrintTypes.h
+
+1484725994 /home/pang1567/project/MEI/SPrinter0213/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter0213/Serial.h
+
+1484484359 /home/pang1567/project/MEI/SPrinter0213/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0213/GPMC.h
+
+1484106575 /home/pang1567/project/MEI/SPrinter0213/image.h
+	"memory.h"
+
+1486971703 /home/pang1567/project/MEI/SPrinter0213/Mysql.h
+	<mysql/mysql.h>
+
+1484726282 source:/home/pang1567/project/MEI/SPrinter0213/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0213/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter0213/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1486959111 source:/home/pang1567/project/MEI/SPrinter0213/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1477718006 /home/pang1567/project/MEI/SPrinter0213/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter0213/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0213/Pcl.h
+
+1484916258 /home/pang1567/project/MEI/SPrinter0213/warning.h
+
+1486626516 source:/home/pang1567/project/MEI/SPrinter0213/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter0213/Scan.h
+
+1486971740 source:/home/pang1567/project/MEI/SPrinter0213/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1484988347 source:/home/pang1567/project/MEI/SPrinter0213/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0213/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1486971822 source:/home/pang1567/project/MEI/SPrinter0213/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1486973653 source:/home/pang1567/project/MEI/SPrinter0213/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0213/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1486973605 source:/home/pang1567/project/MEI/SPrinter0213/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1482722509 source:/home/pang1567/project/MEI/SPrinter0217/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1482582047 /home/pang1567/project/MEI/SPrinter0217/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter0217/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter0217/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0217/systypes.h
+
+1484880867 /home/pang1567/project/MEI/SPrinter0217/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1486435106 /home/pang1567/project/MEI/SPrinter0217/ScanPrintTypes.h
+
+1484725994 /home/pang1567/project/MEI/SPrinter0217/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter0217/Serial.h
+
+1484484359 /home/pang1567/project/MEI/SPrinter0217/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0217/GPMC.h
+
+1484106575 /home/pang1567/project/MEI/SPrinter0217/image.h
+	"memory.h"
+
+1486971703 /home/pang1567/project/MEI/SPrinter0217/Mysql.h
+	<mysql/mysql.h>
+
+1484726282 source:/home/pang1567/project/MEI/SPrinter0217/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0217/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter0217/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1487646727 source:/home/pang1567/project/MEI/SPrinter0217/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1487562737 /home/pang1567/project/MEI/SPrinter0217/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter0217/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0217/Pcl.h
+
+1484916258 /home/pang1567/project/MEI/SPrinter0217/warning.h
+
+1486626516 source:/home/pang1567/project/MEI/SPrinter0217/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter0217/Scan.h
+
+1486971740 source:/home/pang1567/project/MEI/SPrinter0217/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1484988347 source:/home/pang1567/project/MEI/SPrinter0217/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0217/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1487311371 source:/home/pang1567/project/MEI/SPrinter0217/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1486973653 source:/home/pang1567/project/MEI/SPrinter0217/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0217/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1487568645 source:/home/pang1567/project/MEI/SPrinter0217/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1482722509 source:/home/pang1567/project/MEI/SPrinter0221/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1482582047 /home/pang1567/project/MEI/SPrinter0221/BufUsb.h
+	"os_def.h"
+
+1475906800 /home/pang1567/project/MEI/SPrinter0221/os_def.h
+	"regsdef.h"
+
+1478049698 /home/pang1567/project/MEI/SPrinter0221/regsdef.h
+	"systypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0221/systypes.h
+
+1484880867 /home/pang1567/project/MEI/SPrinter0221/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1486435106 /home/pang1567/project/MEI/SPrinter0221/ScanPrintTypes.h
+
+1484725994 /home/pang1567/project/MEI/SPrinter0221/Finger.h
+	"Serial.h"
+
+1475131068 /home/pang1567/project/MEI/SPrinter0221/Serial.h
+
+1484484359 /home/pang1567/project/MEI/SPrinter0221/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0221/GPMC.h
+
+1484106575 /home/pang1567/project/MEI/SPrinter0221/image.h
+	"memory.h"
+
+1486971703 /home/pang1567/project/MEI/SPrinter0221/Mysql.h
+	<mysql/mysql.h>
+
+1484726282 source:/home/pang1567/project/MEI/SPrinter0221/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0221/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1478449440 source:/home/pang1567/project/MEI/SPrinter0221/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1488266181 source:/home/pang1567/project/MEI/SPrinter0221/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1487562737 /home/pang1567/project/MEI/SPrinter0221/ScanPrint.h
+	"image.h"
+
+1477530430 /home/pang1567/project/MEI/SPrinter0221/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0221/Pcl.h
+
+1484916258 /home/pang1567/project/MEI/SPrinter0221/warning.h
+
+1486971740 source:/home/pang1567/project/MEI/SPrinter0221/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1484988347 source:/home/pang1567/project/MEI/SPrinter0221/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1474866272 /home/pang1567/project/MEI/SPrinter0221/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1487311371 source:/home/pang1567/project/MEI/SPrinter0221/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1486973653 source:/home/pang1567/project/MEI/SPrinter0221/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1477912282 /home/pang1567/project/MEI/SPrinter0221/Scan.h
+
+1487647346 source:/home/pang1567/project/MEI/SPrinter0221/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1475818402 source:/home/pang1567/project/MEI/SPrinter0221/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1487659480 source:/home/pang1567/project/MEI/SPrinter0221/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1504556074 source:/home/pang1567/project/MEI/SPrinter0221test/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1504556072 /home/pang1567/project/MEI/SPrinter0221test/BufUsb.h
+	"os_def.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/os_def.h
+	"regsdef.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/regsdef.h
+	"systypes.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/systypes.h
+
+1505074961 /home/pang1567/project/MEI/SPrinter0221test/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/ScanPrintTypes.h
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/Finger.h
+	"Serial.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/Serial.h
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/GPMC.h
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/image.h
+	"memory.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/Mysql.h
+	<mysql/mysql.h>
+
+1504556072 source:/home/pang1567/project/MEI/SPrinter0221test/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1504556074 source:/home/pang1567/project/MEI/SPrinter0221test/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1504556074 source:/home/pang1567/project/MEI/SPrinter0221test/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1505068456 source:/home/pang1567/project/MEI/SPrinter0221test/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1504556072 /home/pang1567/project/MEI/SPrinter0221test/ScanPrint.h
+	"image.h"
+
+1504556072 /home/pang1567/project/MEI/SPrinter0221test/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/Pcl.h
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/warning.h
+
+1505070354 source:/home/pang1567/project/MEI/SPrinter0221test/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/Scan.h
+
+1505059990 source:/home/pang1567/project/MEI/SPrinter0221test/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1504556074 source:/home/pang1567/project/MEI/SPrinter0221test/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1504556074 /home/pang1567/project/MEI/SPrinter0221test/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1504556072 source:/home/pang1567/project/MEI/SPrinter0221test/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1505056511 source:/home/pang1567/project/MEI/SPrinter0221test/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1504556074 source:/home/pang1567/project/MEI/SPrinter0221test/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1505072888 source:/home/pang1567/project/MEI/SPrinter0221test/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/BufUsb.h
+	"os_def.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/os_def.h
+	"regsdef.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/regsdef.h
+	"systypes.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/systypes.h
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/ScanPrintTypes.h
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/Finger.h
+	"Serial.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/Serial.h
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/GPMC.h
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/image.h
+	"memory.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/Mysql.h
+	<mysql/mysql.h>
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	"warning.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/ScanPrint.h
+	"image.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/Pcl.h
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/warning.h
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1505075363 /home/pang1567/project/MEI/SPrinter0221stable/Scan.h
+
+1505075363 source:/home/pang1567/project/MEI/SPrinter0221stable/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1505075415 source:/home/pang1567/project/MEI/SPrinter0221stable/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1505322184 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Finger.h
+	"Serial.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Serial.h
+
+1505325108 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"Mysql.h"
+
+1506562946 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/ScanPrintTypes.h
+
+1506403930 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/GPMC.h
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/os_def.h
+	"regsdef.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/regsdef.h
+	"systypes.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/systypes.h
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/image.h
+	"memory.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Mysql.h
+	<mysql/mysql.h>
+
+1505322184 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1505322184 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1506404309 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/BufUsb.h
+	"os_def.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Pcl.h
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Scan.h
+
+1506562910 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/ScanPrint.h
+	"image.h"
+
+1506561386 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1505322184 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1506406155 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1505322184 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1507833286 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1505322184 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1505549590 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1506403948 source:/home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"Mysql.h"
+	"BufUsb.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	"warning.h"
+
+1505322184 /home/pang1567/project/MEI/SPrinter_IngeTeng0916notest/warning.h
+
+1508819195 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/BufUsb.h
+	"os_def.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/os_def.h
+	"regsdef.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/regsdef.h
+	"systypes.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/systypes.h
+
+1508822064 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"SQLite3.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/ScanPrintTypes.h
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Finger.h
+	"Serial.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Serial.h
+
+1509084415 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/GPMC.h
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/image.h
+	"memory.h"
+
+1510429403 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/SQLite3.h
+	<sqlite3.h>
+
+1508819195 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1508819195 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1511006259 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1508819195 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Pcl.h
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Scan.h
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/ScanPrint.h
+	"image.h"
+
+1508819195 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Mysql.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"globals.h"
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	"Mysql.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Mysql.h
+	<mysql/mysql.h>
+
+1508819195 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1508819195 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1509099663 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"SQLite3.h"
+	"BufUsb.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	"warning.h"
+
+1508819195 /home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/warning.h
+
+1509098947 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1508821810 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1509099700 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1508832147 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1026repeatsqlite3/SQLite3.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	<memory.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<errno.h>
+	"LcdUI.h"
+	"Serial.h"
+	"globals.h"
+	"SQLite3.h"
+
+1511006650 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/BufUsb.h
+	"os_def.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/os_def.h
+	"regsdef.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/regsdef.h
+	"systypes.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/systypes.h
+
+1511010444 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"SQLite3.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/ScanPrintTypes.h
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/Finger.h
+	"Serial.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/Serial.h
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/GPMC.h
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/image.h
+	"memory.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/SQLite3.h
+	<sqlite3.h>
+
+1511006650 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1511006650 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1511006650 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"SQLite3.h"
+	"BufUsb.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	"warning.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/ScanPrint.h
+	"image.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/Pcl.h
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/warning.h
+
+1511010421 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/Scan.h
+
+1511006650 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1511006650 /home/pang1567/project/MEI/SPrinter_IngeTeng1122/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1511006650 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1511006650 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1511079586 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1511006650 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1511042027 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/SQLite3.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	<memory.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<errno.h>
+	"LcdUI.h"
+	"Serial.h"
+	"globals.h"
+	"SQLite3.h"
+
+1511006806 source:/home/pang1567/project/MEI/SPrinter_IngeTeng1122/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1511006650 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/BufUsb.h
+	"os_def.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/os_def.h
+	"regsdef.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/regsdef.h
+	"systypes.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/systypes.h
+
+1511010444 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"SQLite3.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/ScanPrintTypes.h
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/Finger.h
+	"Serial.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/Serial.h
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/GPMC.h
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/image.h
+	"memory.h"
+
+1516732553 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/SQLite3.h
+	<sqlite3.h>
+
+1507987692 /usr/local/sqlite3/include/sqlite3.h
+	<stdarg.h>
+
+1511333490 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1511340977 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1511333610 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1511345088 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"SQLite3.h"
+	"BufUsb.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	"warning.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/ScanPrint.h
+	"image.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/Pcl.h
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/warning.h
+
+1511344526 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/Scan.h
+
+1511346325 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1511006650 /home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1511345937 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/PrintJob.cpp
+	"PrintJob.h"
+	"os_def.h"
+	"BufUsb.h"
+	"PclParser.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"regsdef.h"
+	<fcntl.h>
+	<unistd.h>
+	"image.h"
+	<time.h>
+	"pthread.h"
+	"globals.h"
+
+1511340984 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1511340984 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1511340985 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1511340983 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng1227/SQLite3.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	<memory.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<errno.h>
+	"LcdUI.h"
+	"Serial.h"
+	"globals.h"
+	"SQLite3.h"
+
+1516747165 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/BufUsb.cpp
+	"BufUsb.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<errno.h>
+	<stdio.h>
+	<string.h>
+	<poll.h>
+	<limits.h>
+	"globals.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/BufUsb.h
+	"os_def.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/os_def.h
+	"regsdef.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/regsdef.h
+	"systypes.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/systypes.h
+
+1524753135 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/globals.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+	"LcdUI.h"
+	"GPMC.h"
+	"os_def.h"
+	"time.h"
+	"image.h"
+	"SQLite3.h"
+
+1516752698 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/ScanPrintTypes.h
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/Finger.h
+	"Serial.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/Serial.h
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/LcdUI.h
+	"ScanPrintTypes.h"
+	"Finger.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/GPMC.h
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/image.h
+	"memory.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/SQLite3.h
+	<sqlite3.h>
+
+1516747165 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/Finger.cpp
+	"Finger.h"
+	"stdio.h"
+	"unistd.h"
+	"memory.h"
+	"fcntl.h"
+	"globals.h"
+
+1516747165 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/GPMC.cpp
+	"GPMC.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	"regsdef.h"
+	"globals.h"
+
+1516747165 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/Image.cpp
+	"image.h"
+	"memory.h"
+	"ScanPrintTypes.h"
+	<stdlib.h>
+	"globals.h"
+	"stdio.h"
+	"unistd.h"
+	"fcntl.h"
+	"stdio.h"
+
+1516754718 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/main.cpp
+	<iostream>
+	"pthread.h"
+	"memory.h"
+	"unistd.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"Serial.h"
+	"PrintJob.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"fcntl.h"
+	"poll.h"
+	<netinet/in.h>
+	"Scan.h"
+	"stdlib.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/PrintJob.h
+	<stdio.h>
+	"Pcl.h"
+	"os_def.h"
+	"ScanPrintTypes.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/Pcl.h
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/Scan.h
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/ScanPrint.h
+	"image.h"
+
+1516747165 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/PclParser.cpp
+	"PclParser.h"
+	<stdio.h>
+	"globals.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/PclParser.h
+	"Pcl.h"
+	<string.h>
+	<stdlib.h>
+
+1516747165 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/Scan.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	<unistd.h>
+	"fcntl.h"
+	"ScanPrintTypes.h"
+	"LcdUI.h"
+	"stdio.h"
+	"PrintJob.h"
+	"pthread.h"
+	"globals.h"
+	"ScanPrint.h"
+
+1516747165 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/ScanPrint.cpp
+	"Scan.h"
+	"BufUsb.h"
+	"GPMC.h"
+	"regsdef.h"
+	"Serial.h"
+	"ScanPrintTypes.h"
+	"Scan.h"
+	"PrintJob.h"
+	"ScanPrint.h"
+	"LcdUI.h"
+	"unistd.h"
+	"image.h"
+	"math.h"
+	"time.h"
+	"pthread.h"
+	"fcntl.h"
+	"globals.h"
+
+1516747165 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/Serial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	"Serial.h"
+	"globals.h"
+
+1516747165 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/SQLite3.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	<memory.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<linux/rtc.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<errno.h>
+	"LcdUI.h"
+	"Serial.h"
+	"globals.h"
+	"SQLite3.h"
+
+1516755508 source:/home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/LcdUI.cpp
+	"LcdUI.h"
+	"unistd.h"
+	"stdio.h"
+	"stdlib.h"
+	"memory.h"
+	"Serial.h"
+	"os_def.h"
+	"ScanPrint.h"
+	"pthread.h"
+	"GPMC.h"
+	"Finger.h"
+	"globals.h"
+	"PrintJob.h"
+	"SQLite3.h"
+	"BufUsb.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	"warning.h"
+
+1516747165 /home/pang1567/project/1teng/code/SPrinter_IngeTeng2018_0316/warning.h
+

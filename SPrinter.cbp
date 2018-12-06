@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SPrinter" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SPrinter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="arm-elf-gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/usr/local/sqlite3/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lm" />
+					<Add option="-lz" />
+					<Add option="-lpthread" />
+					<Add option="-lsqlite3" />
+					<Add library="/usr/local/lib/libopenjpeg.a" />
+					<Add library="/usr/local/lib/libjpeg.a" />
+					<Add library="/usr/local/lib/libjbig2dec.a" />
+					<Add library="/usr/local/lib/libfreetype.a" />
+					<Add library="/usr/local/lib/libmupdf.a" />
+					<Add library="/usr/lib/x86_64-linux-gnu/libpthread.a" />
+					<Add library="/usr/lib/x86_64-linux-gnu/libm.a" />
+					<Add library="/usr/local/sqlite3/lib/libsqlite3.so.0.8.6" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SPrinter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="BufUsb.cpp" />
+		<Unit filename="BufUsb.h" />
+		<Unit filename="Finger.cpp" />
+		<Unit filename="Finger.h" />
+		<Unit filename="GPMC.cpp" />
+		<Unit filename="GPMC.h" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="LcdUI.cpp" />
+		<Unit filename="LcdUI.h" />
+		<Unit filename="Pcl.h" />
+		<Unit filename="PclParser.cpp" />
+		<Unit filename="PclParser.h" />
+		<Unit filename="PrintJob.cpp" />
+		<Unit filename="PrintJob.h" />
+		<Unit filename="SQLite3.cpp" />
+		<Unit filename="SQLite3.h" />
+		<Unit filename="Scan.cpp" />
+		<Unit filename="Scan.h" />
+		<Unit filename="ScanPrint.cpp" />
+		<Unit filename="ScanPrint.h" />
+		<Unit filename="ScanPrintTypes.h" />
+		<Unit filename="Serial.cpp" />
+		<Unit filename="Serial.h" />
+		<Unit filename="globals.h" />
+		<Unit filename="image.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="os_def.h" />
+		<Unit filename="regsdef.h" />
+		<Unit filename="systypes.h" />
+		<Unit filename="warning.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
